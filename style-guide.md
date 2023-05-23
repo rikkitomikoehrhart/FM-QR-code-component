@@ -9,18 +9,24 @@ The designs were created to the following widths:
 
 ## Colors
 
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 15px
+- Font size (paragraph): 16px
 
 ### Font
 
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900

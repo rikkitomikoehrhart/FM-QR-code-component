@@ -1,0 +1,188 @@
+/* Google Fonts Style Import for Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Tag Selectors */
+
+a {
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: .9;
+}
+
+
+
+body {
+    align-items: center;
+    background: url("../images/pattern-background-desktop.svg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+
+
+
+/* Class Selectors */ 
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px hsla(223, 47%, 23%, 0.308);
+    width: 350px;
+}
+
+.cancel-btn {
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    font-family: inherit;
+    color:hsl(224, 23%, 55%);
+    font-size: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    color: black;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 350px;
+}
+
+
+.order-info {
+    text-align: center;
+}
+
+.order-info h1{
+    color: hsl(223, 47%, 23%);
+}
+
+.order-info p {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.pay-btn {
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    font-family: inherit;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 20px hsla(223, 47%, 23%, 0.473);
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    opacity: .75;
+    transform: scale(.98);
+}
+
+.payment-plan {
+    background-color: hsla(224, 23%, 55%, 0.048);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+
+.payment-plan h2 {
+    font-size: 14px;
+    color: hsl(223, 47%, 23%);
+    margin-right: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.payment-plan img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.payment-plan span {
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    margin-right: 75px;
+    margin-top: 1px;
+}
+
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 30px;
+}
+
+
+
+
+/* Tag Selectors */
+
+@media (max-width:375px) {
+    body {
+        background: url("../images/pattern-background-mobile.svg");
+        background-size: cover;
+    }
+}
+
+
+
+
+/* Media Queries */ 
+
+
+
+
+
+/* KeyFrames */
+
